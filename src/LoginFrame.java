@@ -15,9 +15,11 @@ public class LoginFrame extends JFrame {
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(3, 2));
-
+// set backgroung color
+        panel.setBackground(color,light blue);
         JLabel emailLabel = new JLabel("Email:");
         panel.add(emailLabel);
+
 
         emailField = new JTextField();
         panel.add(emailField);
